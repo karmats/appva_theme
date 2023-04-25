@@ -25,9 +25,9 @@
             {{t 'title_label'}}<span class="optional">({{t 'optional'}})</span>
           {{/label}}
         {{/required}}
-        {{input 'title' autofocus=true aria-describedby='title-error-notification'}}
+        {{input 'title' autofocus=true}}
         {{#validate 'title'}}
-          <div id="title-error-notification" class="notification notification-error notification-inline">
+          <div class="notification notification-error notification-inline">
             {{error 'title'}}
           </div>
         {{/validate}}
@@ -43,9 +43,9 @@
             {{t 'details_label'}}<span class="optional">({{t 'optional'}})</span>
           {{/label}}
         {{/required}}
-        {{wysiwyg 'details' aria-describedby="details-error-notification"}}
+        {{wysiwyg 'details'}}
         {{#validate 'details'}}
-          <div id="details-error-notification" class="notification notification-error notification-inline">
+          <div class="notification notification-error notification-inline">
             {{error 'details'}}
           </div>
         {{/validate}}
@@ -59,9 +59,9 @@
             {{t 'topic_label'}}<span class="optional">({{t 'optional'}})</span>
           {{/label}}
         {{/required}}
-        {{select 'topic' aria-describedby="topic-error-notification"}}
+        {{select 'topic'}}
         {{#validate 'topic'}}
-          <div id="topic-error-notification" class="notification notification-error notification-inline">
+          <div class="notification notification-error notification-inline">
             {{error 'topic'}}
           </div>
         {{/validate}}
@@ -76,9 +76,9 @@
           {{/label}}
         {{/required}}
         <span class="content-tags-add-hint">{{t 'content_tags_description'}}</span>
-        {{multiselect 'content_tags' aria-describedby='content-tags-error-notification'}}
+        {{multiselect 'content_tags'}}
         {{#validate 'content_tags'}}
-          <div id="content-tags-error-notification" class="notification notification-error notification-inline">
+          <div class="notification notification-error notification-inline">
             {{error 'content_tags'}}
           </div>
         {{/validate}}
