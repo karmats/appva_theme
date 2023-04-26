@@ -66,7 +66,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 code,
@@ -215,6 +215,7 @@ body {
   color: $text_color;
   font-family: $text_font;
   font-size: 15px;
+  font-weight: 300;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -244,7 +245,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h4 {
@@ -1425,7 +1426,7 @@ ul {
 }
 .recent-activity-item-parent {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .recent-activity-item-parent, .recent-activity-item-link {
   margin: 6px 0;
@@ -1545,7 +1546,7 @@ ul {
 .section-tree-title {
   margin-bottom: 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .section-tree-title a {
   color: $text_color;
@@ -1908,7 +1909,7 @@ ul {
 .sidenav-title {
   font-size: 15px;
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
 }
 .sidenav-item {
   display: block;
@@ -1989,7 +1990,7 @@ ul {
   margin-bottom: 5px;
   margin-top: 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .comment-overview {
   border-bottom: 1px solid #ddd;
@@ -2340,7 +2341,7 @@ ul {
 }
 .community-featured-posts .title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .community-featured-posts, .community-activity {
   padding-top: 40px;
@@ -2545,7 +2546,7 @@ ul {
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   margin-right: 2px;
   padding: 3px 10px;
   vertical-align: middle;
@@ -2851,7 +2852,7 @@ ul {
 }
 .post-sidebar-title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .post-comments {
   margin-bottom: 20px;
@@ -2869,7 +2870,7 @@ ul {
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0px 8px;
   vertical-align: top;
   white-space: nowrap;
@@ -2899,7 +2900,7 @@ ul {
 
 .community-badge-achievements-rest {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20px;
   text-align: center;
   vertical-align: top;
@@ -3455,7 +3456,7 @@ ul {
 }
 .request-sidebar h2 {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
 }
 @media (min-width: 1024px) {
@@ -3931,7 +3932,7 @@ ul {
   margin-bottom: 10px;
 }
 .profile-badges-item-title {
-  font-weight: 600;
+  font-weight: 500;
 }
 .profile-badges-item-description, .profile-badges-item-metadata-description {
   color: lighten($text_color, 20%);
@@ -4121,7 +4122,7 @@ ul {
 }
 
 .profile-activity-description span:first-child {
-  font-weight: 600;
+  font-weight: 500;
   display: inline;
 }
 
@@ -4236,7 +4237,7 @@ ul {
 }
 .search-results-sidebar .sidenav-tag .content-tag .label {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   text-align: center;
@@ -4284,11 +4285,11 @@ ul {
 }
 .search-results-sidebar .see-all-filters::after {
   content: " ⌄";
-  font-weight: bold;
+  font-weight: 700;
 }
 .search-results-subheading {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .search-results-list {
   margin-bottom: 25px;
@@ -4307,14 +4308,14 @@ ul {
 }
 .search-results .no-results .headline {
   color: #2F3941;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.45px;
 }
 .search-results .no-results .action-prompt {
   color: #68737D;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.154px;
@@ -4392,7 +4393,7 @@ ul {
 /* By default use bold instead of italic to highlight */
 .search-results-description em {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* Add a yellow background for Chinese */

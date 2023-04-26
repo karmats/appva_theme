@@ -1,7 +1,7 @@
 {
   "name": "Appva",
   "author": "Appva",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "api_version": 2,
   "default_locale": "sv",
   "settings": [
@@ -13,49 +13,56 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "rgba(7, 128, 10, 1)"
+          "value": "#07800A"
+        },
+        {
+          "identifier": "brand_background",
+          "type": "color",
+          "description": "brand_background_description",
+          "label": "brand_background_label",
+          "value": "#E6F4E7"
         },
         {
           "identifier": "brand_text_color",
           "type": "color",
           "description": "brand_text_color_description",
           "label": "brand_text_color_label",
-          "value": "rgba(255, 255, 255, 1)"
+          "value": "#4B5563"
         },
         {
           "identifier": "text_color",
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "rgba(75, 85, 99, 1)"
+          "value": "#4b5563"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "rgba(17, 24, 39, 1)"
+          "value": "#1F2937"
         },
         {
           "identifier": "hover_link_color",
           "type": "color",
           "description": "hover_link_color_description",
           "label": "hover_link_color_label",
-          "value": "rgba(17, 24, 39, 1)"
+          "value": "#1F2937"
         },
         {
           "identifier": "visited_link_color",
           "type": "color",
           "description": "visited_link_color_description",
           "label": "visited_link_color_label",
-          "value": "rgba(17, 24, 39, 1)"
+          "value": "#1F2937"
         },
         {
           "identifier": "background_color",
           "type": "color",
           "description": "background_color_description",
           "label": "background_color_label",
-          "value": "rgba(249, 250, 251, 1)"
+          "value": "#E5E7EB"
         }
       ]
     },

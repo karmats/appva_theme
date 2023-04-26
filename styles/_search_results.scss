@@ -60,7 +60,7 @@
 
         .label {
           font-style: normal;
-          font-weight: 600;
+          font-weight: $font-weight-semibold;
           font-size: 12px;
           line-height: 24px;
           text-align: center;
@@ -116,7 +116,7 @@
 
       &::after {
         content: ' \2304';
-        font-weight: bold;
+        font-weight: $font-weight-bold;
       }
     }
   }
@@ -144,7 +144,7 @@
 
     .headline {
       color: #2F3941;
-      font-weight: 400;
+      font-weight: $font-weight-normal;
       font-size: 18px;
       line-height: 24px;
       letter-spacing: -0.45px;
@@ -152,7 +152,7 @@
 
     .action-prompt {
       color: #68737D;
-      font-weight: 400;
+      font-weight: $font-weight-normal;
       font-size: 14px;
       line-height: 20px;
       letter-spacing: -0.154px;
@@ -244,7 +244,7 @@
 /* By default use bold instead of italic to highlight */
 .search-results-description em {
   font-style: normal;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 /* Add a yellow background for Chinese */

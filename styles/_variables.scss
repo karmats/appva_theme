@@ -27,7 +27,10 @@ $tablet-width: 768px;
 $desktop-width: 1024px;
 $max-width-container: 1160px;
 
-$font-weight-semibold: 600;
+$font-weight-thin: 100;
+$font-weight-normal: 300;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;
 
 // Transitions
 $input-transition: border .12s ease-in-out;
