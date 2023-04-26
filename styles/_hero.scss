@@ -10,5 +10,12 @@
     @include vertical-align;
     max-width: 610px;
     margin: 0 auto;
+
+    h2 {
+      font-size: $font-size-bigger;
+    }
+  }
+  &-name {
+    color: $brand_color;
   }
 }

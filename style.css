@@ -1201,6 +1201,12 @@ ul {
   max-width: 610px;
   margin: 0 auto;
 }
+.hero-inner h2 {
+  font-size: 1.5rem;
+}
+.hero-name {
+  color: $brand_color;
+}
 
 .page-header {
   display: flex;
@@ -1368,6 +1374,12 @@ ul {
 .home-section h2 {
   margin-bottom: 10px;
   text-align: center;
+}
+
+/***** Caegories *****/
+.knowledge-base {
+  background-color: $background_color_alt;
+  padding: 2rem 0 4rem 0;
 }
 
 /***** Promoted articles *****/
