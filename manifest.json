@@ -3,7 +3,7 @@
   "author": "Appva",
   "version": "1.0.2",
   "api_version": 2,
-  "default_locale": "en-us",
+  "default_locale": "sv",
   "settings": [
     {
       "label": "colors_group_label",

@@ -1,4 +1,28 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 100;
+  src: url($assets-museosans-100-otf) format("opentype");
+}
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url($assets-museosans-300-otf) format("opentype");
+}
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url($assets-museosans-500-otf) format("opentype");
+}
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url($assets-museosans-700-otf) format("opentype");
+}
 /***** Normalize.css *****/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
