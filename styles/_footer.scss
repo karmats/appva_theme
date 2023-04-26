@@ -1,11 +1,10 @@
 /***** Footer *****/
 .footer {
-  border-top: 1px solid $low-contrast-border-color;
-  margin-top: 60px;
-  padding: 30px 0;
+  margin-top: 4rem;
+  padding: 1rem 0;
 
   a {
-    color: $secondary-text-color;
+    color: $brand_text_color;
   }
 
   &-inner {
