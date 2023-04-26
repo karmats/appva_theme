@@ -27,6 +27,9 @@
   }
 }
 
-.upload-dropzone span {
-  color: $secondary-text-color;
+.upload-dropzone {
+    span, a {
+    font-size: $font-size-base;
+    color: $link_color;
+  }
 }

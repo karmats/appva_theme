@@ -410,7 +410,7 @@ ul {
   background-color: $brand_color;
   border: 0;
   border-radius: 4px;
-  color: $brand_text_color;
+  color: #fff;
   font-size: 14px;
   line-height: 2.72;
   min-width: 190px;
@@ -551,7 +551,6 @@ ul {
 
 .form-field label {
   display: block;
-  font-size: 0.75rem;
   margin-bottom: 5px;
 }
 
@@ -1998,8 +1997,9 @@ ul {
   right: 0;
 }
 
-.upload-dropzone span {
-  color: lighten($text_color, 20%);
+.upload-dropzone span, .upload-dropzone a {
+  font-size: 1rem;
+  color: $link_color;
 }
 
 /***** Social share links *****/
