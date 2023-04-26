@@ -648,20 +648,11 @@ ul {
 
 /***** Header *****/
 .header {
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 0 5%;
   position: relative;
   align-items: center;
   display: flex;
-  height: 71px;
-  justify-content: space-between;
-}
-@media (min-width: 1160px) {
-  .header {
-    padding: 0;
-    width: 90%;
-  }
+  flex-direction: column;
+  height: 140px;
 }
 
 .logo img {
@@ -682,6 +673,39 @@ ul {
   text-decoration: none;
 }
 
+.top-nav {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  justify-content: end;
+}
+@media (min-width: 1160px) {
+  .top-nav {
+    padding: 0;
+    width: 90%;
+  }
+}
+.top-nav-wrapper {
+  height: 40px;
+  background-color: $brand_background;
+  width: 100%;
+  padding: 8px 64px;
+}
+.top-nav-list {
+  text-transform: uppercase;
+}
+.top-nav-list > li > a {
+  font-size: 0.875rem;
+  color: $brand_color;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
 .user-nav {
   display: inline-block;
   position: absolute;
@@ -698,7 +722,7 @@ ul {
   border: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 71px;
+  top: 140px;
   z-index: 1;
 }
 .user-nav[aria-expanded=true] > a {
@@ -721,6 +745,17 @@ ul {
   display: inline-block;
 }
 
+.nav-wrapper-desktop {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+@media (min-width: 1160px) {
+  .nav-wrapper-desktop {
+    padding: 0;
+    width: 90%;
+  }
+}
 @media (max-width: 768px) {
   .nav-wrapper-desktop {
     display: none;
@@ -788,7 +823,7 @@ ul {
   border-bottom: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 71px;
+  top: 140px;
   z-index: 2;
 }
 .nav-wrapper-mobile .menu-list-mobile[aria-expanded=false] {

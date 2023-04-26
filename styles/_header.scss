@@ -1,13 +1,13 @@
 /***** Header *****/
-$header-height: 71px;
+$header-height: 140px;
+$top-header-height: 40px;
 
 .header {
-  @include max-width-container;
   position: relative;
   align-items: center;
   display: flex;
+  flex-direction: column;
   height: $header-height;
-  justify-content: space-between;
 }
 
 .logo img {
@@ -26,6 +26,31 @@ $header-height: 71px;
 
 .logo a:hover, .logo a:focus, .logo a:active {
   text-decoration: none;
+}
+
+.top-nav {
+  @include max-width-container;
+  display: flex;
+  justify-content: end;
+  &-wrapper {
+    height: $top-header-height;
+    background-color: $brand-background;
+    width: 100%;
+    padding: 8px 64px;
+  }
+  &-list {
+    text-transform: uppercase;
+    & > li > a {
+      font-size: $font-size-navigation;
+      color: $brand_color;
+    }
+  }
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
 }
 
 .user-nav {
@@ -71,6 +96,7 @@ $header-height: 71px;
 }
 
 .nav-wrapper-desktop {
+  @include max-width-container;
   @include mobile { display: none; }
   @include tablet { display: none; }
   @include desktop { display: inline-block; }
