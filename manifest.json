@@ -1,7 +1,7 @@
 {
   "name": "Appva",
   "author": "Appva",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "api_version": 2,
   "default_locale": "sv",
   "settings": [
@@ -62,6 +62,13 @@
           "type": "color",
           "description": "background_color_description",
           "label": "background_color_label",
+          "value": "#F3F4F5"
+        },
+        {
+          "identifier": "background_color_alt",
+          "type": "color",
+          "description": "background_color_alt_description",
+          "label": "background_color_alt_label",
           "value": "#E5E7EB"
         }
       ]

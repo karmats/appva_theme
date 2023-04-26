@@ -18,10 +18,10 @@
       margin: 0 15px 30px;
     }
 
-    border: 1px solid $brand_color;
     border-radius: 4px;
     box-sizing: border-box;
-    color: $brand_color;
+    color: $brand_text_color;
+    background-color: $brand-background;;
     display: flex;
     flex: 1 0 340px;
     margin: 0 0 30px;
@@ -31,7 +31,6 @@
     &:hover,
     &:focus,
     &:active {
-      background-color: $brand_color;
 
       * {
         color: $brand_text_color;
@@ -55,7 +54,7 @@
   }
 
   &-item-link {
-    color: $brand_color;
+    color: $brand_text_color;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;
@@ -79,6 +78,8 @@
   &-item-title {
     margin-bottom: 0;
     font-size: $font-size-bigger;
+    font-weight: $font-weight-semibold;
+    color: $brand_color;
   }
 
   &-item-description {

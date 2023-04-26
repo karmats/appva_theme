@@ -1,8 +1,6 @@
 /***** Hero component *****/
 .hero {
-  background-image: url($homepage_background_image);
-  background-position: center;
-  background-size: cover;
+  background-color: $background_color;
   height: 300px;
   padding: 0 20px;
   text-align: center;
@@ -12,5 +10,9 @@
     @include vertical-align;
     max-width: 610px;
     margin: 0 auto;
+  }
+
+  &-wave {
+    margin-bottom: -8px
   }
 }

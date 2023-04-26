@@ -10,6 +10,8 @@
   "article_sharing_label": "Social delning",
   "background_color_description": "Bakgrundsfärg för ditt Helpcenter",
   "background_color_label": "Bakgrundsfärg",
+  "background_color_alt_description": "Alternativ bakgrundsfärg för ditt Helpcenter ",
+  "background_color_alt_label": "Alternativ bakgrundsfärg",
   "brand_color_description": "Profilfärg för viktiga navigeringselement",
   "brand_color_label": "Profilfärg",
   "brand_group_label": "Profil",
